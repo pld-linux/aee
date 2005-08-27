@@ -5,19 +5,29 @@ Version:	2.2.15b
 Release:	1
 License:	Artistic
 Group:		Applications/Editors
-URL:		http://mahon.cwx.net/
 Source0:	http://mahon.cwx.net/sources/%{name}-%{version}.tar.gz
+# Source0-md5:	f8c3a4196f1bfd46beb6b76d73ecb7a2
 Patch0:		%{name}-conf.patch
+URL:		http://mahon.cwx.net/
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 An easy to use text editor. Intended to be usable with little or no
 instruction. Provides both a terminal (curses based) interface and
-native X-Windows interface (in which case the executable is called
-xae). Features include pop-up menus, journalling (to recover from
-system crash or loss of connection), cut-and-paste, multiple buffers
-(associated with files or not), and much more.
+native X Window System interface (in which case the executable is
+called xae). Features include pop-up menus, journalling (to recover
+from system crash or loss of connection), cut-and-paste, multiple
+buffers (associated with files or not), and much more.
+
+%description -l pl
+£atwy w u¿yciu edytor tekstu. Ma byæ u¿ywalny z niewielk± albo i bez
+¿adnej instrukcji. Ma zarówno interfejs terminalowy (oparty na
+curses), jak i natywny interfejs X Window System (w tym wypadku
+binarka nazywa siê xae). Mo¿liwo¶ci obejmuj± wyskakuj±ce menu,
+kronikê (do odtwarzania danych po padzie systemu lub utracie
+po³±czenia), wytnij-i-wklej, wiele buforów (powi±zanych z plikami lub
+nie) i wiele wiêcej.
 
 %prep
 %setup -q
