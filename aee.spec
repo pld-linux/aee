@@ -1,5 +1,5 @@
 Summary:	An easy to use text editor
-Summary(pl.UTF-8):   Łatwy w użyciu edytor tekstowy
+Summary(pl.UTF-8):	Łatwy w użyciu edytor tekstowy
 Name:		aee
 Version:	2.2.15b
 Release:	1
