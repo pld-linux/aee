@@ -1,5 +1,5 @@
 Summary:	An easy to use text editor
-Summary(pl):	£atwy w u¿yciu edytor tekstowy
+Summary(pl.UTF-8):   Åatwy w uÅ¼yciu edytor tekstowy
 Name:		aee
 Version:	2.2.15b
 Release:	1
@@ -20,14 +20,14 @@ called xae). Features include pop-up menus, journalling (to recover
 from system crash or loss of connection), cut-and-paste, multiple
 buffers (associated with files or not), and much more.
 
-%description -l pl
-£atwy w u¿yciu edytor tekstu. Ma byæ u¿ywalny z niewielk± albo i bez
-¿adnej instrukcji. Ma zarówno interfejs terminalowy (oparty na
+%description -l pl.UTF-8
+Åatwy w uÅ¼yciu edytor tekstu. Ma byÄ‡ uÅ¼ywalny z niewielkÄ… albo i bez
+Å¼adnej instrukcji. Ma zarÃ³wno interfejs terminalowy (oparty na
 curses), jak i natywny interfejs X Window System (w tym wypadku
-binarka nazywa siê xae). Mo¿liwo¶ci obejmuj± wyskakuj±ce menu,
-kronikê (do odtwarzania danych po padzie systemu lub utracie
-po³±czenia), wytnij-i-wklej, wiele buforów (powi±zanych z plikami lub
-nie) i wiele wiêcej.
+binarka nazywa siÄ™ xae). MoÅ¼liwoÅ›ci obejmujÄ… wyskakujÄ…ce menu,
+kronikÄ™ (do odtwarzania danych po padzie systemu lub utracie
+poÅ‚Ä…czenia), wytnij-i-wklej, wiele buforÃ³w (powiÄ…zanych z plikami lub
+nie) i wiele wiÄ™cej.
 
 %prep
 %setup -q
