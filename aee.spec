@@ -9,7 +9,7 @@ Source0:	http://mahon.cwx.net/sources/%{name}-%{version}.tar.gz
 # Source0-md5:	f8c3a4196f1bfd46beb6b76d73ecb7a2
 Patch0:		%{name}-conf.patch
 URL:		http://mahon.cwx.net/
-BuildRequires:	XFree86-devel
+BuildRequires:	xorg-lib-libX11-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -35,7 +35,7 @@ nie) i wiele więcej.
 
 %build
 %{__make} both \
-	OPTFLAGS="%{rpmcflags} -L%{_prefix}/X11R6/%{_lib}"
+	OPTFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
